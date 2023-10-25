@@ -18,8 +18,8 @@ function incrementByTen() {
 
 
 function save() {
-    let saveMsg = count + " wishes - "
-    saveEl.textContent += saveMsg
+    let saveMsg = `You hit pity at: ${count} wishes`
+    saveEl.textContent = saveMsg
     count = 0
     countEl.innerText = count
 }
